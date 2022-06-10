@@ -30,6 +30,7 @@ checksum = "349d5a591cd28b49e1d1037471617a32ddcda5731b99419008085f72d5a53836"
 name = "net_utils"
 version = "0.1.0"
 dependencies = [
+ "dns-lookup",
  "request_config",
 ]
 
@@ -37,7 +38,6 @@ dependencies = [
 name = "rdown"
 version = "0.1.0"
 dependencies = [
- "dns-lookup",
  "net_utils",
  "request_config",
 ]
